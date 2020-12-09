@@ -20,7 +20,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldReturn0IfAmountIs9000() {
+    public void shouldReturn0IfAmountIs900() {
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
 
