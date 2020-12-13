@@ -18,7 +18,7 @@ public class CashbackHackServiceTest {
 
 
     @Test
-    public void shouldReturn0() {
+    public void shouldReturn10() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
         int expected = 10;
